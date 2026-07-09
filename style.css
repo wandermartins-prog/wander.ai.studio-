@@ -1,1 +1,160 @@
+/* ---------- GLOBAL ---------- */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#0b1220;
+
+    color:white;
+
+}
+
+/* ---------- MAIN ---------- */
+
+.app{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:50px 20px;
+
+}
+
+/* ---------- HERO ---------- */
+
+.hero{
+
+    text-align:center;
+
+    margin-bottom:50px;
+
+}
+
+.tag{
+
+    color:#63c5ff;
+
+    letter-spacing:2px;
+
+    font-size:14px;
+
+    margin-bottom:10px;
+
+}
+
+.hero h1{
+
+    font-size:56px;
+
+    margin-bottom:15px;
+
+}
+
+.hero p{
+
+    color:#d7dce5;
+
+    font-size:18px;
+
+}
+
+/* ---------- ACTIONS ---------- */
+
+.actions{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:45px;
+
+}
+
+.actions button{
+
+    padding:14px 22px;
+
+    border:none;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    background:#3b82f6;
+
+    color:white;
+
+    font-size:16px;
+
+    transition:.25s;
+
+}
+
+.actions button:hover{
+
+    background:#2563eb;
+
+}
+
+/* ---------- GRID ---------- */
+
+.grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+/* ---------- CARD ---------- */
+
+.card{
+
+    background:#172033;
+
+    border-radius:18px;
+
+    padding:25px;
+
+}
+
+.card h2{
+
+    margin-bottom:18px;
+
+}
+
+.card a{
+
+    display:block;
+
+    text-decoration:none;
+
+    color:white;
+
+    padding:10px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+.card a:hover{
+
+    color:#63c5ff;
+
+}
